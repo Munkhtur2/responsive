@@ -1,0 +1,27 @@
+.item{
+    height: 100px;
+    width: 300px;
+    background: red;
+}
+.box{
+    width: 299px;
+}
+.contanier{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+@media screen and (max-width:412px){
+    .contanier{
+        flex-direction: column;
+        background-color: green;
+        align-items:center ;
+    }
+    .item2{
+        background: none;
+        background: yellow!important;
+    }
+    h1{
+        color: white;
+    }
+}
